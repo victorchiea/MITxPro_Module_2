@@ -1,3 +1,5 @@
+import math
+
 print("Getting Started")
 print()
 # First Example
