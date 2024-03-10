@@ -297,3 +297,11 @@ def cels_to_fahr(cels_temp):
 
 print(cels_to_fahr(0))
 print(cels_to_fahr(100))
+
+
+def ave(x1, x2):
+    z = (x1 + x2)/2
+    return z
+
+
+print(ave(4, 6))
