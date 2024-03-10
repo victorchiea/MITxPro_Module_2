@@ -297,7 +297,9 @@ def cels_to_fahr(cels_temp):
 
 print(cels_to_fahr(0))
 print(cels_to_fahr(100))
-
+print()
+# Now Trying Another Formula from the Module's Guide
+print("Exercise from Module's Quick Guide")
 
 def ave(x1, x2):
     z = (x1 + x2)/2
@@ -305,3 +307,69 @@ def ave(x1, x2):
 
 
 print(ave(4, 6))
+print()
+# Back to the core exercises of the Module
+print("More Exercises to Practice Variables")
+x = 2
+x = 4
+y = x
+print(y)
+a = [1, 2, 3, 4]
+b = a
+b.pop()
+# pop() to demonstrate that any operation on the list that changes data also impacts both a and b.
+# in this case, pop() function eliminates the last value of the list
+print(a)
+# Now trying with for loop
+x = 40
+for i in range(3):
+    x = 10
+    print(i, x)
+
+
+def print_different_x(x):
+    x = 20
+    print (x)
+
+
+print_different_x(99)
+
+# Now Going into more Functions
+print()
+print("Module Exercises")
+
+
+def g(x):
+    if x <= 5:
+        return "small"
+    elif 6 <= x <= 10:
+        return "medium"
+    else:
+        return "large"
+
+
+print(g(7))
+x = [1, 2, 3]
+x.append(4)
+y = x
+x.append(5)
+y.append(6)
+print("List of x:", x, ",", "List of y", y)
+
+val = 13
+
+
+def val_provider():
+    val = 5
+    for i in range(10):
+        val = i
+
+
+val_provider()
+print("Value:", val)
+x = 4
+while x > 0:
+    for i in range(20):
+        if i / 2 > 5:
+            print("Hello")
+    x -= 1
